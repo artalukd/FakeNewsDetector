@@ -1,12 +1,12 @@
-# Information Retrieval Course Project
+# Fake News Article Detection Using LSTM   
 
- **Fake News Article Detection Using LSTM**
+ **Information Retrieval Course Project**
 
 - Team:
-..1. Arka Talukdar
-..2. Darshil Kapadia
-..3. Vaibhav Sanjay Jade
-..4. Jay Virendra Pokarna
+⋅⋅1. Arka Talukdar
+⋅⋅2. Darshil Kapadia
+⋅⋅3. Vaibhav Sanjay Jade
+⋅⋅4. Jay Virendra Pokarna
 
 
 Owing to space constraints (maximum size of the zip file that could be uploaded was 10 MB), we have deleted all the data files, trained models, and pickled data structures. Only the code, script and result files are present in the zip file uploaded. 
