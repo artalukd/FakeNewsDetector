@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Fake News Detector</title>
+        <link rel="stylesheet" href="http://perfectmotherfuckingwebsite.com/fuckingstyle.css?v=af44eca4724df0cc3588ee12863ccd1d467d3344">
+    </head>
+    <body>
+        <div>
+            <a href="{% url 'index' %}" class="top-menu"></a>
+            <br><br><div class="col-md-15">
+            <h1>Fake News Detection</h1></div>
+        </div>
+        <div class="content container">
+            <div class="row">
+         <form id="myForm" action="/demo/"  method="post" >
+       {% csrf_token %}
+        <textarea id = "text" name="article" placeholder="Paste your News article here..." rows="17" cols="100"></textarea><br><br>
+       <button type="submit" class="save btn btn-default"><em><h4>  Detect !   </h4></em></button></form>
+        </div>
+            </div>
+        </div>
+    </body>
+</html>
